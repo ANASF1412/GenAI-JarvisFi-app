@@ -1,0 +1,60 @@
+date,description,amount,category,payment_method
+2024-01-01,Salary Credit,75000,income,bank_transfer
+2024-01-02,Rent Payment,-25000,rent,bank_transfer
+2024-01-03,Grocery Shopping - Big Bazaar,-3500,groceries,debit_card
+2024-01-04,Coffee with friends,-450,dining,cash
+2024-01-05,Metro Card Recharge,-500,transportation,online
+2024-01-06,Movie Tickets,-800,entertainment,credit_card
+2024-01-07,Electricity Bill,-2200,utilities,online
+2024-01-08,SIP Investment - HDFC Fund,-5000,investments,bank_transfer
+2024-01-09,Lunch at Office,-250,dining,cash
+2024-01-10,Online Shopping - Clothing,-2800,shopping,credit_card
+2024-01-11,Gym Membership,-1500,fitness,debit_card
+2024-01-12,Medical Checkup,-1800,healthcare,cash
+2024-01-13,Internet Bill,-1200,utilities,online
+2024-01-14,Weekend Outing,-1500,entertainment,credit_card
+2024-01-15,Grocery Shopping,-2800,groceries,debit_card
+2024-01-16,Fuel for Car,-3000,transportation,debit_card
+2024-01-17,Book Purchase,-800,education,online
+2024-01-18,Insurance Premium,-4500,insurance,bank_transfer
+2024-01-19,Restaurant Dinner,-1200,dining,credit_card
+2024-01-20,Mobile Recharge,-500,utilities,online
+2024-01-21,Savings Transfer,-10000,savings,bank_transfer
+2024-01-22,ATM Withdrawal,-5000,cash_withdrawal,atm
+2024-01-23,Online Course Fee,-2000,education,online
+2024-01-24,Grocery Shopping,-3200,groceries,debit_card
+2024-01-25,Weekend Movie,-600,entertainment,credit_card
+2024-01-26,Office Lunch,-300,dining,cash
+2024-01-27,Pharmacy,-450,healthcare,cash
+2024-01-28,Uber Rides,-800,transportation,online
+2024-01-29,Gift Purchase,-1500,gifts,credit_card
+2024-01-30,Utility Bills,-1800,utilities,online
+2024-01-31,Month End Groceries,-2500,groceries,debit_card
+2024-02-01,Salary Credit,75000,income,bank_transfer
+2024-02-02,Rent Payment,-25000,rent,bank_transfer
+2024-02-03,Valentine's Day Gift,-3000,gifts,credit_card
+2024-02-04,Grocery Shopping,-3800,groceries,debit_card
+2024-02-05,Coffee Shop,-350,dining,cash
+2024-02-06,Metro Recharge,-500,transportation,online
+2024-02-07,Netflix Subscription,-649,entertainment,online
+2024-02-08,SIP Investment,-5000,investments,bank_transfer
+2024-02-09,Office Lunch,-280,dining,cash
+2024-02-10,Shopping Mall,-4500,shopping,credit_card
+2024-02-11,Doctor Visit,-800,healthcare,cash
+2024-02-12,Electricity Bill,-2100,utilities,online
+2024-02-13,Date Night,-2500,dining,credit_card
+2024-02-14,Valentine's Dinner,-4000,dining,credit_card
+2024-02-15,Grocery Shopping,-2900,groceries,debit_card
+2024-02-16,Car Service,-2800,transportation,cash
+2024-02-17,Book Store,-1200,education,debit_card
+2024-02-18,Weekend Trip,-8000,travel,credit_card
+2024-02-19,Travel Fuel,-2000,transportation,cash
+2024-02-20,Mobile Bill,-800,utilities,online
+2024-02-21,Savings Account,-8000,savings,bank_transfer
+2024-02-22,ATM Cash,-3000,cash_withdrawal,atm
+2024-02-23,Online Shopping,-1800,shopping,online
+2024-02-24,Grocery Run,-3100,groceries,debit_card
+2024-02-25,Movie Theater,-700,entertainment,credit_card
+2024-02-26,Lunch Meeting,-450,dining,cash
+2024-02-27,Vitamin Supplements,-1200,healthcare,online
+2024-02-28,End of Month Bills,-2200,utilities,online

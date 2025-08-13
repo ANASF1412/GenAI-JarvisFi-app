@@ -1,0 +1,137 @@
+# Core Streamlit and Web Framework
+streamlit==1.28.1
+streamlit-chat==0.1.1
+
+# IBM Watson Services
+ibm-watson==7.0.1
+ibm-cloud-sdk-core==3.18.0
+
+# Data Processing and Analysis
+pandas==2.1.3
+numpy==1.24.3
+
+# Visualization
+plotly==5.17.0
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Natural Language Processing
+spacy==3.7.2
+# Run: python -m spacy download en_core_web_sm
+textblob==0.17.1
+nltk==3.8.1
+
+# Machine Learning and AI
+scikit-learn==1.3.2
+transformers==4.35.2
+torch==2.1.1
+
+# HuggingFace Integration
+huggingface-hub==0.19.4
+
+# Date and Time Processing
+python-dateutil==2.8.2
+
+# HTTP Requests and API Integration
+requests==2.31.0
+urllib3==2.0.7
+
+# JSON and Data Formats
+jsonschema==4.20.0
+
+# Logging and Debugging
+loguru==0.7.2
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# File Processing
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# Progress Bars and UI
+tqdm==4.66.1
+
+# Statistical Analysis
+scipy==1.11.4
+statsmodels==0.14.0
+
+# Caching and Performance
+streamlit-extras==0.3.5
+st-annotated-text==4.0.1
+
+# Security and Authentication
+cryptography==41.0.8
+
+# Development and Testing
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+
+# Optional: For enhanced financial calculations
+quantlib==1.32
+
+# Optional: For advanced data visualization
+altair==5.1.2
+bokeh==3.3.0
+
+# Enhanced Features - NEW ADDITIONS
+fpdf2==2.7.6                    # PDF report generation
+forex-python==1.8              # Currency conversion (fallback)
+yfinance==0.2.18               # Market data for enhanced insights
+schedule==1.2.0                # Task scheduling for notifications
+email-validator==2.0.0         # Email validation for reports
+
+# UI/UX Enhancements
+streamlit-option-menu==0.3.6   # Enhanced navigation menu
+streamlit-lottie==0.0.5        # Animations and loading indicators
+streamlit-card==0.0.5          # Card-based UI components
+streamlit-toggle-switch==1.0.2 # Toggle switches for dark mode
+streamlit-elements==0.1.0      # Advanced UI elements
+
+# Performance and Caching
+diskcache==5.6.3              # Disk-based caching for currency rates
+redis==4.6.0                  # Redis support (optional)
+
+# Enhanced Analytics
+wordcloud==1.9.2              # Word clouds for spending categories
+holidays==0.34                # Holiday detection for spending patterns
+
+# NEW COMPREHENSIVE FEATURES - Security & Database
+pymongo>=4.5.0                # MongoDB integration
+bcrypt>=4.0.0                 # Password hashing
+PyJWT>=2.8.0                  # JWT token handling
+
+# Voice Processing and STT/TTS
+SpeechRecognition>=3.10.0     # Speech recognition
+gTTS>=2.3.0                   # Google Text-to-Speech
+pygame>=2.5.0                 # Audio playback
+librosa>=0.10.0               # Audio processing
+soundfile>=0.12.0             # Audio file handling
+openai-whisper>=20230918      # Whisper STT (optional)
+TTS>=0.15.0                   # Coqui TTS (optional)
+pydub>=0.25.0                 # Audio manipulation
+
+# AI and RAG (Retrieval Augmented Generation)
+sentence-transformers>=2.2.0  # Embeddings for RAG
+chromadb>=0.4.0               # Vector database
+PyPDF2>=3.0.0                 # PDF processing
+PyMuPDF>=1.23.0               # Advanced PDF processing
+
+# Language Processing and Translation
+googletrans>=4.0.0rc1         # Google Translate
+langdetect>=1.0.9             # Language detection
+
+# Currency and Localization
+geoip2>=4.7.0                 # Geolocation for regional settings
+
+# Firebase Authentication (Optional)
+firebase-admin>=6.2.0         # Firebase integration
+
+# Bias Detection and Fairness
+aif360>=0.5.0                 # AI Fairness toolkit
+
+# Additional Utilities for Comprehensive Features
+python-dateutil>=2.8.0        # Date utilities
+pytz>=2023.3                  # Timezone handling
+colorama>=0.4.6               # Colored terminal output

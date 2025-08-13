@@ -1,0 +1,245 @@
+/* Enhanced Styling for Personal Finance Chatbot */
+
+/* Main container styling */
+.main-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 0;
+}
+
+/* Chat interface styling */
+.chat-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Alert styling */
+.alert-critical {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 15px rgba(238, 90, 82, 0.3);
+    animation: pulse 2s infinite;
+}
+
+.alert-warning {
+    background: linear-gradient(135deg, #feca57, #ff9ff3);
+    color: #2c2c2c;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 15px rgba(254, 202, 87, 0.3);
+}
+
+.alert-positive {
+    background: linear-gradient(135deg, #5f27cd, #00d2d3);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 15px rgba(0, 210, 211, 0.3);
+}
+
+/* Button enhancements */
+.stButton > button {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+/* Metric cards */
+.metric-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Progress bars */
+.progress-bar {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #5f27cd, #00d2d3);
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+/* Sidebar enhancements */
+.css-1d391kg {
+    background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+}
+
+.sidebar-content {
+    color: white;
+}
+
+/* Currency converter styling */
+.currency-widget {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.currency-rate {
+    font-size: 24px;
+    font-weight: bold;
+    color: #667eea;
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Loading animations */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* PDF report styling */
+.report-section {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px 0;
+    border-left: 5px solid #667eea;
+}
+
+.report-button {
+    background: linear-gradient(135deg, #5f27cd, #00d2d3);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.report-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(95, 39, 205, 0.4);
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: #ecf0f1;
+}
+
+.dark-mode .metric-card {
+    background: rgba(52, 73, 94, 0.9);
+    color: #ecf0f1;
+    border: 1px solid rgba(236, 240, 241, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .chat-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .metric-card {
+        margin: 10px 0;
+    }
+    
+    .currency-widget {
+        padding: 20px;
+        margin: 10px 0;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #5a67d8, #6b46c1);
+}
+
+/* Success message styling */
+.success-message {
+    background: linear-gradient(135deg, #48bb78, #38a169);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 15px rgba(72, 187, 120, 0.3);
+}
+
+/* Error message styling */
+.error-message {
+    background: linear-gradient(135deg, #f56565, #e53e3e);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 15px rgba(245, 101, 101, 0.3);
+}
