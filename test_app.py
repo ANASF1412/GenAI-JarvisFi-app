@@ -99,8 +99,8 @@ def test_core_functionality():
         print("✅ Demographic adaptation working")
         
         # Test Smart Alerts
-        from smart_alerts import SmartAlertSystem
-        alert_system = SmartAlertSystem()
+        from smart_alerts import SmartAlerts
+        alert_system = SmartAlerts()
         
         alerts = alert_system.generate_all_alerts(df, profile, analysis)
         print(f"✅ Smart alerts generated: {len(alerts)} alerts")
@@ -152,12 +152,11 @@ def test_dependencies():
     
     required_packages = [
         'streamlit',
-        'pandas', 
+        'pandas',
         'plotly',
         'requests',
         'fpdf2',
-        'ibm-watson',
-        'spacy'
+        'ibm-watson'
     ]
     
     missing_packages = []
@@ -332,8 +331,8 @@ def test_core_functionality():
         print("✅ Demographic adaptation working")
         
         # Test Smart Alerts
-        from smart_alerts import SmartAlertSystem
-        alert_system = SmartAlertSystem()
+        from smart_alerts import SmartAlerts
+        alert_system = SmartAlerts()
         
         alerts = alert_system.generate_all_alerts(df, profile, analysis)
         print(f"✅ Smart alerts generated: {len(alerts)} alerts")
@@ -385,12 +384,11 @@ def test_dependencies():
     
     required_packages = [
         'streamlit',
-        'pandas', 
+        'pandas',
         'plotly',
         'requests',
         'fpdf2',
-        'ibm-watson',
-        'spacy'
+        'ibm-watson'
     ]
     
     missing_packages = []
